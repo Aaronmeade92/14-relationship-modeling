@@ -2,7 +2,7 @@
 
 import mongoose from 'mongoose';
 
-const animalSchema = mongoose.Schema({
+const predatorSchema = mongoose.Schema({
 
   name: String,
   numberOfLegs: Number,
@@ -10,4 +10,4 @@ const animalSchema = mongoose.Schema({
   eatsHumans: Boolean,
 });
 
-export default mongoose.model('Animals', animalSchema);
+export default mongoose.model('Predators', predatorSchema);
