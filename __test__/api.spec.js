@@ -11,6 +11,8 @@ import {
   server,
 } from '../app.js';
 
+const app = require('../app.js');
+
 import modelsHelper from '../models.helper.js';
 
 const mockRequest = supertest(server);
@@ -23,6 +25,14 @@ afterEach(modelsHelper.afterEach);
 
 
 describe('Schema Module', () => {
+
+  const PORT = 8888;
+  beforeAll( () => {
+    app.start(PORT);
+  });
+  afterAll( () => {
+    app.stop();
+  });
 
   it('mockRequest should exist', () => {
     expect(mockRequest).toBeDefined();

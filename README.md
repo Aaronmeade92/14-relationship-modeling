@@ -1,4 +1,7 @@
+[![Build Status](https://travis-ci.com/Aaronmeade92/14-relationship-modeling)](https://travis-ci.com/Aaronmeade92/14-relationship-modeling)
 
+  Travis: https://travis-ci.com/Aaronmeade92/14-relationship-modeling  
+  PR: https://github.com/khuynh92/14-relationship-modeling/pull/1  
 
 To run this app:
 
