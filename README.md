@@ -1,8 +1,9 @@
 [![Build Status](https://travis-ci.com/Aaronmeade92/14-relationship-modeling)](https://travis-ci.com/Aaronmeade92/14-relationship-modeling)
 
   Travis: https://travis-ci.com/Aaronmeade92/14-relationship-modeling  
-  PR: https://github.com/khuynh92/14-relationship-modeling/pull/1  
-
+  
+  PR:https://github.com/Aaronmeade92/14-relationship-modeling/commit/dada4f664b5d52c4c7b55933cc2f896366c7de17
+  
 To run this app:
 
  1. clone the repo
